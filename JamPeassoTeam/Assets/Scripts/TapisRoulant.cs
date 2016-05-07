@@ -8,9 +8,9 @@ public class TapisRoulant : MonoBehaviour {
     {
         rend = GetComponent<Renderer>();
     }
-    void Update()
+    void FixedUpdate()
     {
         float offset = Time.time * scrollSpeed;
-        rend.material.SetTextureOffset("_MainTex", new Vector2(0, -offset));
+        rend.material.SetTextureOffset("_MainTex", new Vector2(-offset, 0));
     }
 }

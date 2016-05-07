@@ -1,0 +1,193 @@
+fileFormatVersion: 2
+guid: 62a50cabe129133438b0e216a0e5f3c9
+timeCreated: 1462626181
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: ArmL01
+    100002: ArmL02
+    100004: ArmL03
+    100006: ArmR01
+    100008: ArmR02
+    100010: ArmR03
+    100012: //RootNode
+    100014: Calculator
+    100016: FootR
+    100018: FootR 1
+    100020: HandL01
+    100022: HandL02
+    100024: HandR01
+    100026: HandR02
+    100028: Head
+    100030: LegL01
+    100032: LegL02
+    100034: LegL03
+    100036: LegR01
+    100038: LegR02
+    100040: LegR03
+    100042: Pelvis
+    100044: Root
+    400000: ArmL01
+    400002: ArmL02
+    400004: ArmL03
+    400006: ArmR01
+    400008: ArmR02
+    400010: ArmR03
+    400012: //RootNode
+    400014: Calculator
+    400016: FootR
+    400018: FootR 1
+    400020: HandL01
+    400022: HandL02
+    400024: HandR01
+    400026: HandR02
+    400028: Head
+    400030: LegL01
+    400032: LegL02
+    400034: LegL03
+    400036: LegR01
+    400038: LegR02
+    400040: LegR03
+    400042: Pelvis
+    400044: Root
+    4300000: Calculator
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Calculator
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Calculator
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/ArmL01
+        weight: 1
+      - path: Root/ArmL01/ArmL02
+        weight: 1
+      - path: Root/ArmL01/ArmL02/ArmL03
+        weight: 1
+      - path: Root/ArmL01/ArmL02/ArmL03/HandL01
+        weight: 1
+      - path: Root/ArmL01/ArmL02/ArmL03/HandL01/HandL02
+        weight: 1
+      - path: Root/ArmR01
+        weight: 1
+      - path: Root/ArmR01/ArmR02
+        weight: 1
+      - path: Root/ArmR01/ArmR02/ArmR03
+        weight: 1
+      - path: Root/ArmR01/ArmR02/ArmR03/HandR01
+        weight: 1
+      - path: Root/ArmR01/ArmR02/ArmR03/HandR01/HandR02
+        weight: 1
+      - path: Root/Head
+        weight: 1
+      - path: Root/Pelvis
+        weight: 1
+      - path: Root/Pelvis/LegL01
+        weight: 1
+      - path: Root/Pelvis/LegL01/LegL02
+        weight: 1
+      - path: Root/Pelvis/LegL01/LegL02/LegL03
+        weight: 1
+      - path: Root/Pelvis/LegL01/LegL02/LegL03/FootR
+        weight: 1
+      - path: Root/Pelvis/LegR01
+        weight: 1
+      - path: Root/Pelvis/LegR01/LegR02
+        weight: 1
+      - path: Root/Pelvis/LegR01/LegR02/LegR03
+        weight: 1
+      - path: Root/Pelvis/LegR01/LegR02/LegR03/FootR 1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

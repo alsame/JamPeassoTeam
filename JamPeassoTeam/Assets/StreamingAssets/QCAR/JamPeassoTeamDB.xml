@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="TABLAS" size="1200.000000 848.000000" />
+    <ImageTarget name="mates" size="1600.000000 1071.000000" />
     <ImageTarget name="pic1176288" size="326.000000 450.000000" />
     <ImageTarget name="multiplicaciones" size="1191.000000 1684.000000" />
   </Tracking>
